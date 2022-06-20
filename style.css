@@ -1,0 +1,183 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	background: #B6CB9E;
+	background-size: 350px;
+}
+
+/*design et effet d'agrandissement h1*/
+
+h1 {
+color: black;
+font: 800;
+}
+
+/*design et changement de couleur h2*/
+
+h2 {
+	color: #4B644A;
+	font-weight: 800;
+	transition: color 0.2s ease;
+}
+h2:hover {
+	color: black;
+}
+
+/*taille et agrandissement photo profil*/
+
+#logo {
+	width: 200px;
+}
+
+#logo-moto {
+	font-style: italic;
+	font-weight: 800;
+}
+
+/*taille et effet d'ombre sur photo lewagon*/
+
+#lewagon {
+	width: 200px;
+	border-radius: 5px;
+	padding: 10px;
+	transition: box-shadow 0.3s ease;
+}
+
+#lewagon:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+/*cercle et ombre*/
+
+.img-circle {
+	border-radius: 50%;
+}
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+}
+
+/*container qui contient les box-white*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+/*responsive design*/
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+
+}
+@media (max-width: 550px) {
+	.container {
+		width: 450px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+}
+@media (max-width: 450px) {
+	.container {
+		width: 350px;
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 300px;
+	}
+
+}
+@media (max-width: 350px) {
+	.container {
+		width: 250px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container {
+		width: 200px;
+	}
+
+}
+
+/*box basique pour la mise en page*/
+
+.box-white {
+	background: #FFFFFF;
+	padding:  40px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 20px auto;
+	text-align: center;
+}
+
+/*bouton vert*/
+
+.btn-green {
+	background: #4B644A;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+	color: white;
+	text-decoration: none;
+	transition: color 0.2 ease;
+}
+.btn-green:hover {
+	background-color: black;
+}
+
+/*design de la liste réseaux sociaux
+(enlever les bullets points, couleur et taille)
+j'ai essayé de faire une sorte de bouton pour faire
+ressortir une ombre en étant dessus, en ajustant sa taille
+avec la taille des icones mais il reste une part de blanc je pense
+à cause des icones qui ne sont correspondent pas forcément*/
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 40px 0px 0px 0px;
+	margin: 20px;
+	border-radius: 5px;
+	transition: box-shadow 0.3s ease;
+}
+
+.list-inline li:hover {
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+.list-inline i {
+	font-size: 70px;
+	color: #4B644A;
+}
+
+/*Cette ligne efface le petit underscore à coté des icones mal ajustés*/
+
+.list-inline a {
+	text-decoration: none;
+}
